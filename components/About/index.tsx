@@ -9,13 +9,13 @@ function About({ }: Props) {
   return (
     <div className="container mx-auto flex px-5 py-5 md:flex-row flex-col items-center">
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-        <img className="object-cover object-center rounded" alt="hero" src="me1.png" />
+        <img className="object-cover object-center rounded-lg" alt="hero" src="me1.png" />
       </div>
       <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Bernardino T.
           <br className="hidden lg:inline-block" />Ochoa
         </h1>
-        <p className="mb-8 leading-relaxed">I am a front-end developer with over 3 years of
+        <p className="mb-8 leading-relaxed text-gray-100">I am a front-end developer with over 3 years of
           experience in React. I have a strong understanding of the
           React Library and its ecosystem and a deep knowledge
           of JavaScript and its related technologies. I can create
@@ -24,9 +24,9 @@ function About({ }: Props) {
           in both teams and individual settings. I am a quick learner
           and am always eager to take on new challenges and
           explore new technologies.</p>
-        <div className="flex justify-center">
+        <div className="flex justify-center text-gray-200">
 
-          <div className="text-gray-600 body-font overflow-hidden">
+          <div className="text-gray-200 body-font overflow-hidden">
             <div className="container px-0 py-0 mx-auto">
               <p className=' font-bold tracking-widest text-lg pb-4'>Education</p>
               <div className="-my-8 divide-y-2 divide-gray-100 overflow-auto max-h-[70vh] px-2">
