@@ -22,17 +22,18 @@ const Hero = (props: Props) => {
         }}
         className='relative flex justify-center top-20 items-center z-0'
       >
-        <div className='absolute border border-[#333333] rounded-full h-[200px] w-[200px] mt-52 animate-ping'></div>
-        <div className='absolute border border-[#333333] rounded-full h-[300px] w-[300px] mt-52'></div>
+        <div className='absolute border border-[#333333] rounded-full h-[400px] w-[400px] mt-52 animate-ping'></div>
         <div className='absolute border border-[#333333] rounded-full h-[500px] w-[500px] mt-52'></div>
-        <div className='absolute border border-[#333333] rounded-full h-[200px] w-[200px] mt-52'></div>
-        <div className='absolute border border-[#F7AB0A] opacity-20 rounded-full h-[650px] w-[650px] mt-52 animate-pulse'></div>
-        <div className='absolute border border-[#333333] rounded-full h-[800px] w-[800px] mt-52'></div>
+        <div className='absolute border border-[#333333] rounded-full h-[600px] w-[600px] mt-52'></div>
+        <div className='absolute border border-[#333333] rounded-full h-[500px] w-[500px] mt-52'></div>
+        <div className='absolute border border-[#F7AB0A] opacity-20 rounded-full h-[750px] w-[750px] mt-52 animate-pulse'></div>
+        <div className='absolute border border-[#333333] rounded-full h-[1000px] w-[1000px] mt-52'></div>
       </motion.div>
-      <img className='relative rounded-full h-80 w-80 shadow-lg mx-auto object-cover z-10' src={'me2.png'} alt='' />
+      <img className='relative mask mask-hexagon h-80 w-80 shadow-xl mx-auto object-cover z-10' src={'me2.png'} alt='' />
+
       <div className='z-10'>
-        <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>FRONT-END DEVELOPE</h2>
-        <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
+        <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>FRONT-END DEVELOPER</h2>
+        <h1 className='text-5xl lg:text-6xl font-semibold px-10 text-gray-800'>
           Hi, my name is Bernardino
         </h1>
         <div className='pt-5 space-x-2'>
