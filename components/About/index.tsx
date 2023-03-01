@@ -52,6 +52,8 @@ function About({ }: Props) {
                 />
               </div>
 
+              
+
 
               <p className=' font-bold tracking-widest text-lg pb-4'>Experiences</p>
               <div className="-my-8 divide-y-2 divide-gray-100 overflow-auto max-h-[70vh] px-2">
